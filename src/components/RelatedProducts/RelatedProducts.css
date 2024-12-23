@@ -1,0 +1,49 @@
+.relpopularmen {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.relpopmen-head h1 {
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+.relpopmen-head p {
+    color: #171717;
+    opacity: 0.6;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.relpopularmen_item {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.relitem img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.relexplore-btn {
+    background-color: rgb(188, 188, 188);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.relexplore-btn:hover {
+    cursor: pointer;
+    background-color: var(--orange);
+}
+.relpopularmen-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

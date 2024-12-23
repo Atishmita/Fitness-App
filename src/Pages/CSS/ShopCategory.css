@@ -1,0 +1,99 @@
+.shopcategory-banner{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    z-index: -1;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+.shopcategory-left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+.shopcategory-text {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+    text-align: center;
+}
+.shopcategory-description {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.shopcategory-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 160px;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.shopcategory-indexSort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+}
+.shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888 ;
+    display: flex;
+    align-items: center;
+    color: #718096;
+    gap: 10px;
+}
+.shopcategory-indexSort p span{
+    font-weight: 500;
+}
+.shopcategory_products{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 50px 10px;
+}
+.popitem img {
+    height: 350px;
+    width: 1000%;
+    object-fit: cover;
+}
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px auto;
+    width: 200px;
+    height: 60px;
+    border-radius: 75px;
+    background: #ededed;
+    color: #787878;
+    font-size: 15px;
+    font-weight: 500;
+}
+.shopcategory-loadmore:hover{
+    background: var(--orange);
+    color: white;
+}

@@ -1,0 +1,33 @@
+.new-collections {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+}
+.newcol-head h1 {
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+.newcol-head p{
+    color: #171717;
+    opacity: 0.6;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 30px;
+    gap: 50px 10px;
+}
+.item1 img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.new-collections-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

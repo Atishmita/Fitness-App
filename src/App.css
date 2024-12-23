@@ -1,0 +1,13 @@
+:root {
+  --orange: #F1113B;
+  --planCard: linear-gradient(210.41deg, #F1113B.14%, #f953e5 100.75%);
+}
+.App {
+  mix-blend-mode: overlay;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+}
+::-webkit-scrollbar{
+  display: none;
+}
